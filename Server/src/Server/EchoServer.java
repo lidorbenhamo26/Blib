@@ -1319,7 +1319,7 @@ public class EchoServer extends AbstractServer {
                             }
                         }
                     }
-                    if (book[6] == "")
+                    if (book[6].isEmpty())
                         book[6] = "No upcoming return date";
                 }
                 books.add(book);
@@ -1395,7 +1395,7 @@ public class EchoServer extends AbstractServer {
                             }
                         }
                     }
-                    if (book[6] == "")
+                    if (book[6].isEmpty())
                         book[6] = "No upcoming return date";
                 }
                 books.add(book);
